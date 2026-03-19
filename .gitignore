@@ -1,0 +1,31 @@
+# ROS2 workspace build artifacts
+build/
+install/
+log/
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+dist/
+*.egg
+
+# ROS1 legacy
+devel/
+.catkin_workspace
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gazebo
+*.bag
+*.db3
